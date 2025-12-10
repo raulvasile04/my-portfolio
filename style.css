@@ -250,18 +250,23 @@ a:hover {
 /* Responsive tweaks for small screens */
 @media (max-width: 600px) {
   .site-header {
-    padding-top: 0.8rem 0;
+    padding: 0.6rem 0 0.4rem;   /* much less height */
   }
 
   .intro h1 {
     font-size: 1.3rem;
   }
 
-  .tagline{
+  .tagline {
     font-size: 0.75rem;
   }
 
-   .header-content {
+  .contact {
+    font-size: 0.7rem;
+    line-height: 1.3;
+  }
+
+  .header-content {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
@@ -277,12 +282,13 @@ a:hover {
     padding: 0.25rem 0.5rem;
   }
 
-
   .main-content {
     padding: 1.5rem var(--spacing) 2.5rem;
   }
 
   .card {
-    padding: 1.24rem 1.25rem;
+    padding: 1.25rem 1.25rem;
   }
 }
+
+
