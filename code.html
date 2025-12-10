@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- This makes the site scale properly on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raul-Valentin Vasile – CV</title>
+
+  <!-- This connects teh CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Page header with name & navigation -->
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="intro">
+        <h1>Raul-Valentin Vasile</h1>
+        <p class="tagline">Software Engineering Student / Heilbronn University of Applied Sciences</p>
+        <p class="contact">
+          <a href="mailto:raulvasile04@gmail.com">raulvasile04@gmail.com</a> ·
+          <a href="tel:+4917621753701">+49 176 21753701</a> ·
+          <a href="https://www.linkedin.com/in/raul-valentin-vasile/" target="_blank" rel="noopener">LinkedIn</a> ·
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> · 
+          <a href="Raul-Valentin_Vasile_Lebenslauf.pdf" target="_blank">Download CV (PDF)</a>
+        </p>
+      </div>
+
+      <nav class="main-nav">
+        <a href="#about">About</a>
+        <a href="#mycity">Where I am from</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Dark mode toggle button -->
+      <button id="theme-toggle" class="theme-toggle" type="button">
+        🌙 Dark
+      </button>
+    </div>
+  </header>
+
+  <!-- Main page content -->
+  <main class="container main-content">
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        Currently, I am studying Software Engineering at Hochschule Heilbronn of Applied Sciences.
+        I am a technology enthusiast and I try to learn something new every day. Being in my third semester,
+        I already learned the basics of the IT world, and I would love to work at an IT company and apply my
+        knowledge in the industry.
+      </p>
+    </section>
+
+    <section id="mycity" class="card">
+      <h2>Where I'm from</h2>
+      <p>
+        I'm from <strong>Valea Doftanei</strong>, Romania.
+        Here's where it is on the map:
+      </p>
+
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44909.63964125102!2d25.68903854067262!3d45.29120269409717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b30e5ba5884e49%3A0xcba084d12dc5454e!2s107645%20Te%C8%99ila%2C%20Romania!5e0!3m2!1sen!2sde!4v1765299798969!5m2!1sen!2sde"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <p>
+        This is a small village in Romania, surrounded by mountains and rivers.
+        It is a wonderful place and I am proud to be from there.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <ul>
+            <li>Java</li>
+            <li>Python (basics)</li>
+            <li>HTML and CSS (basics)</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git</li>
+            <li>Lucidchart</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+        <div class="skill-category">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Problem-solving</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience section -->
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+
+      <article class="item">
+        <header class="item-header">
+          <h3>Store Worker – Lidl</h3>
+          <span class="item-meta">Esslingen am Neckar · 2024 – Present</span>
+        </header>
+        <ul>
+          <li>Learned important values like team communication, taking responsibility, and discipline.</li>
+          <li>Cashier, shelf stocking, and various store tasks.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <header class="item-header">
+          <h3>Janitor – LGK, Weidler</h3>
+          <span class="item-meta">Heidelberg · 2021 – 2024</span>
+        </header>
+        <ul>
+          <li>My first step into working life; learned how money is made.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+
+      <article class="item">
+        <header class="item-header">
+          <h3>Personal Website</h3>
+          <span class="item-meta">
+            <a href="https://github.com/yourusername/project" target="_blank" rel="noopener">
+              View on GitHub
+            </a>
+          </span>
+        </header>
+        <p>
+          This is a personal Website that contains all the needed information about myself.
+          It is made with HTML , CSS for styling and JavaScript for interactive buttons like the Dark/White mode.
+        </p>
+      </article>
+    </section>
+
+    <!-- Education section -->
+    <section id="education" class="card">
+      <h2>Education</h2>
+
+      <article class="item">
+        <header class="item-header">
+          <h3>Degree or Course Name</h3>
+          <span class="item-meta">School Name · Year – Year</span>
+        </header>
+        <p>
+          Optional: mention relevant coursework, thesis topic, or special achievements.
+        </p>
+      </article>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>
+        I’m currently looking for opportunities as a working student in the IT world.
+        The best way to reach me is via email at
+        <a href="mailto:raulvasile04@gmail.com">raulvasile04@gmail.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Raul Vasile. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript MUST be loaded here, before closing body -->
+  <script src="script.js"></script>
+</body>
+</html>
