@@ -5,6 +5,7 @@
   <!-- This makes the site scale properly on phones -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Raul-Valentin Vasile – CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- This connects teh CSS file -->
   <link rel="stylesheet" href="style.css">
@@ -14,15 +15,26 @@
   <header class="site-header">
     <div class="container header-content">
       <div class="intro">
-        <h1>Raul-Valentin Vasile</h1>
-        <p class="tagline">Software Engineering Student / Heilbronn University of Applied Sciences</p>
-        <p class="contact">
-          <a href="mailto:raulvasile04@gmail.com">raulvasile04@gmail.com</a> ·
-          <a href="tel:+4917621753701">+49 176 21753701</a> ·
-          <a href="https://www.linkedin.com/in/raul-valentin-vasile/" target="_blank" rel="noopener">LinkedIn</a> ·
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> · 
-        </p>
-      </div>
+  <h1>Raul-Valentin Vasile</h1>
+
+  <div class="tagline-row">
+    <p class="tagline">
+      Software Engineering Student / Heilbronn University of Applied Sciences
+    </p>
+
+    <div class="contact-icons">
+      <a href="mailto:raulvasile04@gmail.com"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+4917621753701"><i class="fas fa-phone"></i></a>
+      <a href="https://www.linkedin.com/in/raul-valentin-vasile/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </div>
+  </div>
+
 
       <nav class="main-nav">
         <a href="#about">About</a>
@@ -104,6 +116,9 @@
             <li>Problem-solving</li>
           </ul>
         </div>
+        <p>
+          To see all the skills, ask me for my personal CV through the chat bubble below.
+        </p>
       </div>
     </section>
 
@@ -149,6 +164,7 @@
         <p>
           This is a personal Website that contains all the needed information about myself.
           It is made with HTML , CSS for styling and JavaScript for interactive buttons like the Dark/White mode.
+          It also includes a Bubble Chat made with the Tawk software
         </p>
       </article>
     </section>
@@ -159,12 +175,13 @@
 
       <article class="item">
         <header class="item-header">
-          <h3>Degree or Course Name</h3>
-          <span class="item-meta">School Name · Year – Year</span>
+          <h3>Software Engineering / Heilbronn University of Applied Sciences / Bachelor of Science</h3>
+          <span class="item-meta">2024 – Present</span>
+          <h3>Technical Vocational College / Friedrich Hecker Schule / Sinsheim</h3>
+          <span class="item-meta">2022 – 2024</span>
+          <h3>Community School(Certificate - "Realschulabschluss") / Elsenztal School / Bammental</h3>
+          <span class="item-meta">2019 – 2022</span>
         </header>
-        <p>
-          To be added
-        </p>
       </article>
     </section>
 
@@ -184,11 +201,9 @@
       <p>© 2025 Raul Vasile. All rights reserved.</p>
     </div>
   </footer>
-
-  <!-- JavaScript MUST be loaded here, before closing body -->
   <script src="script.js"></script>
 
-  <!--Start of Tawk.to Script-->
+  <!--Tawk.to Script-->
   <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
@@ -200,6 +215,5 @@
     s0.parentNode.insertBefore(s1,s0);
     })();
   </script>
-  <!--End of Tawk.to Script-->
 </body>
 </html>

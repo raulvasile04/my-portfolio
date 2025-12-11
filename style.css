@@ -105,6 +105,34 @@ body {
   justify-content: space-between;
 }
 
+.tagline-row {
+  display: flex;
+  align-items: center;   
+  gap: 0.75rem;          
+  flex-wrap: wrap;     
+}
+
+
+.contact-icons {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.contact-icons a {
+  color: white;
+  font-size: 1.3rem;    
+}
+
+.contact-icons a:hover {
+  color: #bfdbfe;
+}
+
+
+.dark-theme .contact-icons a {
+  color: #e5e7eb;
+}
+
+
 .intro h1 {
   font-size: 1.9rem;
   letter-spacing: 0.03em;
@@ -250,7 +278,7 @@ a:hover {
 /* Responsive tweaks for small screens */
 @media (max-width: 600px) {
   .site-header {
-    padding: 0.7rem 0 0.4rem;   /* much less height */
+    padding: 0.7rem 0 0.4rem; 
   }
 
   .intro h1 {
