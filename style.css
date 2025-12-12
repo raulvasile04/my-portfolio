@@ -96,6 +96,42 @@ body {
   border-color: #1f2937;
 }
 
+.programming-skills li i {
+  font-size: 1.5rem;
+  width : 1.6rem;
+  text-align: center;
+}
+
+.programming-skills ul {
+  margin : 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.programming-skills li {
+  display: flex;
+  align-items: center;
+  gap : 0.5rem;
+  margin: 0.25rem 0;
+}
+
+.programming-skills .fa-java {
+  color: #f89820;
+}
+
+.programming-skills .fa-python {
+  color: #3776ab;
+}
+
+.programming-skills .fa-html5 {
+  color: #e34f26;
+}
+
+.programming-skills .fa-css3-alt {
+  color: #1572b6;
+}
+
+
 
 .header-content {
   display: flex;
