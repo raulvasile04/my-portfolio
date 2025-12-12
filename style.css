@@ -96,23 +96,36 @@ body {
   border-color: #1f2937;
 }
 
-.programming-skills li i {
+.skill-category {
+  flex : 1 1 200px;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size:0.95rem;
+}
+
+.skill-category li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.25rem 0;
+}
+
+.skill-category li i {
   font-size: 1.2rem;
-  width : 1.3rem;
+  width: 1.3rem;
   text-align: center;
 }
 
-.programming-skills ul {
-  margin : 0;
-  padding-left: 0;
-  list-style: none;
-}
-
-.programming-skills li {
-  display: flex;
-  align-items: center;
-  gap : 0.5rem;
-  margin: 0.25rem 0;
+.skill-category h3 {
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 
 .programming-skills .fa-java {
