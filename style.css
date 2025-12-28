@@ -96,6 +96,94 @@ body {
   border-color: #1f2937;
 }
 
+.skill-category {
+  flex : 1 1 200px;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size:0.95rem;
+}
+
+.skill-category li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.25rem 0;
+}
+
+.skill-category li i {
+  font-size: 1.2rem;
+  width: 1.3rem;
+  text-align: center;
+}
+
+.skill-category h3 {
+  font-size: 0.9rem;
+  margin-bottom: 0.35rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.programming-skills .fa-java {
+  color: #f89820;
+}
+
+.programming-skills .fa-python {
+  color: #3776ab;
+}
+
+.programming-skills .fa-html5 {
+  color: #e34f26;
+}
+
+.programming-skills .fa-css3-alt {
+  color: #1572b6;
+}
+
+
+.tools ul {
+  margin : 0;
+  padding-left : 0;
+  list-style: none;
+}
+
+.tools li{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.25rem 0;
+}
+
+.tools li i{
+  font-size: 1.2rem;
+  width:1.3rem;
+  text-align: center;
+}
+
+.tools .fa-git {
+  color:#a32505
+}
+
+.tools .fas-file-word {
+  color:#224fca
+}
+
+.tools .fas-file-powerpoint {
+  color:#b52e1f
+}
+
+.tools .fas-file-excel {
+  color:#047b14
+}
+
+.tools .fa-figma{
+  color:#7f0eb0
+}
+
 
 .header-content {
   display: flex;
@@ -218,6 +306,12 @@ h3 {
 
 .skill-category {
   flex: 1 1 200px;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .skill-category h3 {
